@@ -10,8 +10,11 @@
         android:id="@+id/nextActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main Application"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="300dp"
+        android:background="@color/purple_700"
         android:onClick="nextActivity"
+        android:text="Main App"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
+        android:onClick="repo"
         android:text="Farhan Hussain"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -36,4 +40,26 @@
         android:text="BCSF18A513"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="150dp"
+        android:onClick="repo"
+        android:text="Repository"
+        app:layout_constraintEnd_toEndOf="@+id/nextActivity"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

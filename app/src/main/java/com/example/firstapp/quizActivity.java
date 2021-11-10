@@ -41,6 +41,7 @@ public class quizActivity extends AppCompatActivity {
         generateQuestion();
     }
 
+
     void generateQuestion(){
         stat.setText(quiz.questions[currentQuestion].statement);
         o1.setText(quiz.questions[currentQuestion].options[0]);
@@ -57,16 +58,16 @@ public class quizActivity extends AppCompatActivity {
 
         switch (selectedId){
             case R.id.option1:
-                quiz.questions[currentQuestion - 1].selectedOption = 0;
+                quiz.questions[currentQuestion-1].selectedOption = 0;
                 break;
             case R.id.option2:
-                quiz.questions[currentQuestion - 1].selectedOption = 1;
+                quiz.questions[currentQuestion-1].selectedOption = 1;
                 break;
             case R.id.option3:
-                quiz.questions[currentQuestion - 1].selectedOption = 2;
+                quiz.questions[currentQuestion-1].selectedOption = 2;
                 break;
             case R.id.option4:
-                quiz.questions[currentQuestion - 1].selectedOption = 3;
+                quiz.questions[currentQuestion-1].selectedOption = 3;
                 break;
         }
 
@@ -89,4 +90,6 @@ public class quizActivity extends AppCompatActivity {
             startActivity(next);
         }
     }
+
+
 }
