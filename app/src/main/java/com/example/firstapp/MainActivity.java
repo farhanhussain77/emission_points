@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void repo(View view){
         Intent myWebLink = new Intent(android.content.Intent.ACTION_VIEW);
-        myWebLink.setData(Uri.parse("https://github.com/bilalhaider11/Task_3"));
+        myWebLink.setData(Uri.parse("https://github.com/farhanhussain77/emission_points"));
         startActivity(myWebLink);
     }
 }
