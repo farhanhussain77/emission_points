@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dell/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_mainpage.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_quiz.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/dell/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_results.xml" value="0.1859375" />
       </map>
     </option>
   </component>

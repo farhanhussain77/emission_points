@@ -3,18 +3,18 @@ package com.example.firstapp;
 import java.io.Serializable;
 import java.util.List;
 
-public class Quiz implements Serializable {
-    Question[] questions;
+public class QuizClass implements Serializable {
+    question[] questions;
     int correctCount;
     int wrongCount;
 
-    Quiz(){
+    QuizClass(){
         correctCount = 0;
         wrongCount = 0;
-        questions = new Question[10];
+        questions = new question[10];
 
         for(int i=0; i<10; i++)
-            questions[i] = new Question();
+            questions[i] = new question();
 
         questions[0].statement = "What are غ خ ?";
         questions[0].options = new String[]{
